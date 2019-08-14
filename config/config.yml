@@ -1,0 +1,30 @@
+username: "xx123456"
+environmentName: "gui"
+
+Environments:
+  gui: environments/gui.yml
+
+Users:
+  z115994: users/xx123456.yml
+
+Params:
+  any: '/(.)+/'
+  timeformat: '/\\d{8}-\\d{2}:\\d{2}:\\d{2}/'
+  replaceformat: '/\\d{8}-\\d{2}:\\d{2}:\\d{2}\\.\\d{3}/'
+  Price: 44
+  AggressivePrice: 43
+
+JiraUploader:
+  Enabled: false
+  Url: https://cedt-icg-jira.nam.nsroot.net
+  User: xs04344
+  Password: Pasword12345
+  Project : SECORE
+  Version: R2-2019-Egypt
+  Cycle: Egypt BAU R2 Regression
+
+
+#suiteHook: "fast.common.glue.MySuiteHook"
+
+#Params:
+#  example_type: gui

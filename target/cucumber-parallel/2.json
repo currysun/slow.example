@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1339980896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuiCommonStepDefs.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Open baidu",
+        "description": "",
+        "id": "baidu;open-baidu;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 44658001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuiCommonStepDefs.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92120557,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "WebAgent set timeout 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WebAgent",
+                  "offset": 0
+                },
+                {
+                  "val": "5",
+                  "offset": 21
+                }
+              ],
+              "location": "GuiCommonStepDefs.setTimeout(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5734610223,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "WebAgent open \"https://cn.bing.com/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WebAgent",
+                  "offset": 0
+                },
+                {
+                  "val": "https://cn.bing.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "GuiCommonStepDefs.openUrl(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Baidu",
+    "description": "",
+    "id": "baidu",
+    "keyword": "Feature",
+    "uri": "E:/workspace/WebGUI/features/biying.feature"
+  }
+]

@@ -1,0 +1,5 @@
+Repository:
+  BaiDuPage:
+    trait: //*[@id="su"]
+    button: //*[@id="su"]
+    searchInput: //*[@id="kw"]

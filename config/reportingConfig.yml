@@ -1,0 +1,16 @@
+Email:
+  protpcpl: smtp
+  hostname: caimail.wlb2.nam.nsroot.net
+  port: 2525
+  auth: false
+  senderAddress: FastFramework@automation.com
+  receiverAddress: xs04344@imcnam.ssmb.com
+  copyAddress: xs04344@imcnam.ssmb.com
+  attachedFileName:
+  attacheHtmlReport: true
+  X_Priority: 3
+  X_MSMail_Priority: Normal
+  X_Mailer: Microsoft Outlook Express 6.00.2900.2869
+  X_MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
+  ReturnReceipt: 1
+  mail.debug: false
